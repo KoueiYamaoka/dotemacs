@@ -9,6 +9,9 @@
     gitignore-mode
     flycheck
     flycheck-color-mode-line
+    flychec-pos-tip
+    flycheck-pyflakes
+    flymake
     google-translate
     mode-compile
     markdown-mode
