@@ -7,7 +7,7 @@
 (global-set-key (kbd "C-c y")     'helm-show-kill-ring)
 (global-set-key (kbd "C-c i")   'helm-imenu)
 (global-set-key (kbd "C-x b")   'helm-buffers-list)
-(global-set-key (kbd "C-c b")   'helm-descbinds)      ;;; キーバインド表示
+(global-set-key (kbd "C-c k")   'helm-descbinds)      ;;; キーバインド表示
 (global-set-key (kbd "C-c s")   'helm-ag)
 (global-set-key (kbd "M-x") 'helm-M-x)
 (global-set-key (kbd "C-h") 'delete-backward-char)

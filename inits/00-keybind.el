@@ -75,4 +75,14 @@
 (global-set-key (kbd "C-c C-b") 'byte-compile-file)
 ;; メニューバーを非表示
 (menu-bar-mode -1)
+;;指定行にジャンプ
+(global-set-key (kbd "C-x j") 'goto-line)
+;;最後に1行追加する
+(setq require-final-newline t)
+;;yatex
+(global-set-key (kbd "C-c b SPC") 'YaTeX-make-begin-end)
+;;scroll up
+(global-set-key (kbd "C-<down>") 'scroll-up)
+;;scro;; down
+(global-set-key (kbd "C-<up>") 'scroll-down)
 ;;; 00-keybind.el ends here

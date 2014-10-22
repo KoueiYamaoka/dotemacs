@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: lsts
+# key: lsts
+
+# --
+\begin{lstlisting}[caption=SourceCode:$0, xleftmargin=1cm]
+
+\end{lstlisting}
